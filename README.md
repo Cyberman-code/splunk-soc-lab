@@ -48,7 +48,7 @@ Raw ingested log data confirming the dataset structure before analysis.
 - The attack succeeded, indicating a compromised credential.
 - A second, smaller failed-login burst from `198.51.100.23` was also detected but did not result in a successful login.
 
-## Recommended Response (as a SOC Analyst would document)
+## Recommended Response 
 - Force password reset on the compromised account.
 - Block/blacklist `203.0.113.45` at the firewall.
 - Review post-login activity for signs of lateral movement or data access.

@@ -43,6 +43,11 @@ Raw ingested log data confirming the dataset structure before analysis.
 
 ![Raw log source data](screenshots/04-raw-log-source-data.png)
 
+## Dashboard
+Both key searches were saved as panels on a persistent dashboard ("SSH Brute-Force Monitoring") in Dashboard Studio — turning the one-off investigation into a reusable monitoring view.
+
+![Dashboard overview](screenshots/05-dashboard-overview.png)
+
 ## Findings
 - `203.0.113.45` attempted ~40 rapid logins across multiple usernames in a short window, consistent with brute-force / credential-stuffing behavior.
 - The attack succeeded, indicating a compromised credential.
@@ -57,3 +62,4 @@ Raw ingested log data confirming the dataset structure before analysis.
 ## Tools Used
 - Splunk Enterprise (local install)
 - SPL commands: `rex`, `stats`, `sort`, `timechart`
+- Dashboard Studio (persistent monitoring dashboard)

@@ -1,5 +1,7 @@
 # Splunk SOC Lab — SSH Brute-Force Detection
 
+> **Note:** This repo contains multiple investigations. See [Investigation 2: Windows RDP Brute-Force & Persistence](INVESTIGATION_2.md) for a second scenario using structured Windows Event Log data.
+
 ## Overview
 Hands-on Splunk exercise simulating a real SOC Tier 1 investigation: detecting and confirming a brute-force SSH attack using SPL (Search Processing Language).
 
@@ -53,7 +55,7 @@ Both key searches were saved as panels on a persistent dashboard ("SSH Brute-For
 - The attack succeeded, indicating a compromised credential.
 - A second, smaller failed-login burst from `198.51.100.23` was also detected but did not result in a successful login.
 
-## Recommended Response 
+## Recommended Response (as a SOC Analyst would document)
 - Force password reset on the compromised account.
 - Block/blacklist `203.0.113.45` at the firewall.
 - Review post-login activity for signs of lateral movement or data access.

@@ -56,7 +56,7 @@ sourcetype=csv EventID=4732 IpAddress="198.51.100.77"
 
 This maps to a classic MITRE ATT&CK-style chain: Brute Force → Valid Accounts → Create Account → Account Manipulation.
 
-## Recommended Response (as a SOC Analyst would document)
+## Recommended Response 
 - Immediately disable/delete the `svc_update` account.
 - Reset the compromised `Administrator` password.
 - Block `198.51.100.77` at the firewall/edge.

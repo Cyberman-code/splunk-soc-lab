@@ -1,6 +1,6 @@
 # Splunk SOC Lab — SSH Brute-Force Detection
 
-> **Note:** This repo contains multiple investigations. See [Investigation 2: Windows RDP Brute-Force & Persistence](INVESTIGATION_2.md) for a second scenario using structured Windows Event Log data.
+> **Note:** This repo contains multiple investigations. See [Investigation 2: Windows RDP Brute-Force & Persistence](INVESTIGATION_2.md) and [Investigation 3: Data Exfiltration Detection](INVESTIGATION_3.md) for additional scenarios.
 
 ## Overview
 Hands-on Splunk exercise simulating a real SOC Tier 1 investigation: detecting and confirming a brute-force SSH attack using SPL (Search Processing Language).
